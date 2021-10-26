@@ -14,6 +14,8 @@ import android.os.PersistableBundle;
 import android.util.Log;
 import android.view.Menu;
 
+import com.google.android.material.tabs.TabLayout;
+
 public class WeatherActivity extends AppCompatActivity {
 
     @Override
@@ -23,9 +25,12 @@ public class WeatherActivity extends AppCompatActivity {
 
         PagerAdapter adapter = new HomeFragmentPagerAdapter(
                 getSupportFragmentManager());
-        ViewPager pager = (ViewPager) findViewById(R.id.pager);
+        ViewPager pager = findViewById(R.id.pager);
         pager.setOffscreenPageLimit(3);
         pager.setAdapter(adapter);
+
+        TabLayout tabLayout = findViewById(R.id.header);
+        tabLayout.setupWithViewPager(pager);
     }
 
     @Override
