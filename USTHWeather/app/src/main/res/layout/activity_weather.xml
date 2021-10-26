@@ -3,26 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:id="@+id/container"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
-
-    <fragment
-        android:layout_margin="15dp"
-        android:id="@+id/weather"
-        android:name="vn.edu.usth.usthweather.WeatherFragment"
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        class="vn.edu.usth.usthweather.WeatherFragment"
-        android:layout_weight="1"/>
-
-    <fragment
-        android:id="@+id/forecast"
-        android:name="vn.edu.usth.usthweather.ForecastFragment"
-        android:layout_width="match_parent"
-        class="vn.edu.usth.usthweather.ForecastFragment"
-        android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
