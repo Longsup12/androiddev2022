@@ -23,7 +23,7 @@
             android:layout_width="68dp"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Mon" />
+            android:text="@string/Mon" />
 
         <ImageView
             android:layout_marginLeft="30dp"
@@ -38,8 +38,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:layout_weight="1"
-            android:text="Partly Cloudy\n24C-31C"
-            android:textSize="15dp"  />
+            android:text="@string/PartlyCloudy"
+            android:textSize="20dp" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="2dp"
@@ -53,7 +53,7 @@
             android:layout_width="69dp"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Tue" />
+            android:text="@string/Tues" />
 
         <ImageView
             android:layout_marginLeft="30dp"
@@ -68,8 +68,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:layout_weight="1"
-            android:text="Showers\n24C-27C"
-            android:textSize="15dp" />
+            android:text="@string/Showers"
+            android:textSize="20dp" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="2dp"
@@ -83,7 +83,7 @@
             android:layout_width="69dp"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Wed" />
+            android:text="@string/Wed"/>
 
         <ImageView
             android:layout_marginLeft="30dp"
@@ -98,8 +98,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:layout_weight="1"
-            android:text="Rain\n22C-23C"
-            android:textSize="15dp" />
+            android:text="@string/rainy"
+            android:textSize="20dp" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="2dp"
@@ -113,7 +113,7 @@
             android:layout_width="69dp"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Thu" />
+            android:text="@string/Thur" />
 
         <ImageView
             android:layout_marginLeft="30dp"
@@ -128,8 +128,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:layout_weight="1"
-            android:text="Scattered Showers\n22C-30C"
-            android:textSize="15dp" />
+            android:text="@string/ScatteredShowers"
+            android:textSize="20dp" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="2dp"
@@ -143,7 +143,7 @@
             android:layout_width="69dp"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Fri" />
+            android:text="@string/Fri" />
 
         <ImageView
             android:layout_marginLeft="30dp"
@@ -158,8 +158,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:layout_weight="1"
-            android:text="Most Cloudy\n22C-30C"
-            android:textSize="15dp" />
+            android:text="@string/Cloudy"
+            android:textSize="20dp" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="2dp"
@@ -173,7 +173,7 @@
             android:layout_width="69dp"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Sat" />
+            android:text="@string/Sat" />
 
         <ImageView
             android:layout_marginLeft="30dp"
@@ -188,8 +188,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:layout_weight="1"
-            android:text="Partly cloudy\n24C-31C"
-            android:textSize="15dp" />
+            android:text="@string/Cloudy"
+            android:textSize="20dp" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="2dp"
@@ -203,7 +203,7 @@
             android:layout_width="69dp"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Sun" />
+            android:text="@string/Sun" />
 
         <ImageView
             android:layout_marginLeft="30dp"
@@ -218,8 +218,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:layout_weight="1"
-            android:text="ThunderStorm\n25C-28C"
-            android:textSize="15dp" />
+            android:text="@string/Thunder"
+            android:textSize="20dp" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="2dp"
@@ -233,7 +233,7 @@
             android:layout_width="69dp"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Mon" />
+            android:text="@string/Mon" />
 
         <ImageView
             android:layout_marginLeft="30dp"
@@ -248,8 +248,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:layout_weight="1"
-            android:text="Scatteredd Thunderstorms\n24C-27C"
-            android:textSize="15dp" />
+            android:text="@string/ScatteredThunder"
+            android:textSize="20dp" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="2dp"
@@ -263,7 +263,7 @@
             android:layout_width="69dp"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Tue" />
+            android:text="@string/Tues" />
 
         <ImageView
             android:layout_marginLeft="30dp"
@@ -279,7 +279,7 @@
             android:gravity="center"
             android:layout_weight="1"
             android:text="Showers\n24C-26C"
-            android:textSize="15dp" />
+            android:textSize="20dp" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="2dp"
@@ -293,7 +293,7 @@
             android:layout_width="69dp"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Wed" />
+            android:text="@string/Wed" />
 
         <ImageView
             android:layout_marginLeft="30dp"
@@ -309,7 +309,7 @@
             android:gravity="center"
             android:layout_weight="1"
             android:text="Scattered Thunderstorms\n23C-27C"
-            android:textSize="15dp" />
+            android:textSize="20dp" />
     </LinearLayout>
 
 </LinearLayout>
